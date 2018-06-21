@@ -1,0 +1,253 @@
+<<!-- 头部 -->
+<!DOCTYPE html>
+<html>
+<head>
+<title>详情页</title>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<script src="js/jquery.min.js"></script>
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />  
+<!-- 响应式 -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+        <script type="text/javascript" src="js/move-top.js"></script>
+        <script type="text/javascript" src="js/easing.js"></script>
+        <script type="text/javascript">
+            jQuery(document).ready(function($) {
+                $(".scroll").click(function(event){     
+                    event.preventDefault();
+                    $('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+
+                    // 控制滚动条跳动的速度，是animate和scrolltop方法结合
+                });
+            });
+        </script>
+<link href="css/styles.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/component.css" />
+<link href="css/animate.min.css" rel="stylesheet"> 
+<script src="js/wow.min.js"></script>
+<script>
+ new WOW().init();
+</script>
+</head>
+<!-- 头部 -->
+<body>
+<!-- 菜单栏 -->
+<div class="header">
+    <div class="container">
+        <div class="logo animated wow pulse" data-wow-duration="1000ms" data-wow-delay="500ms">
+            <h1><a href="index.html"><span>C</span><img src="images/oo.png" alt=""><img src="images/oo.png" alt="">kery</a></h1>
+        </div>
+        <div class="nav-icon">      
+            <a href="#" class="navicon"></a>
+                <div class="toggle">
+                    <ul class="toggle-menu">
+                        <li><a class="active" href="index.html">主页</a></li>
+                        <li><a  href="menu.html">菜单</a></li>
+                        <li><a  href="blog.html">博客</a></li>
+                        <li><a  href="typo.html">注册</a></li>
+                        <li><a  href="events.html">新品</a></li>
+
+                    </ul>
+                </div>
+            <script>
+            $('.navicon').on('click', function (e) {
+              e.preventDefault();
+              $(this).toggleClass('navicon--active'); 
+              // 切换为类
+              $('.toggle').toggleClass('toggle--active');
+            });
+            </script>
+<!--            从屏幕掉落缩回特效 -->
+        </div>
+    <div class="clearfix"></div>
+    </div>      
+</div>
+<!-- 菜单栏 -->
+<!--content-->
+<div class="blog">
+	<div class="container">
+		
+		<div class="col-md-9 ">
+		<!--content-->
+<div class="single">
+	
+		<div class="single-top">
+			<img class="img-responsive wow fadeInUp animated" data-wow-delay=".5s" src="images/ss.jpg" alt="" />
+				<div class="lone-line">
+					<h4>洋葱圈煎鱼块</h4>
+						<ul class="grid-blog">
+							<li><span><i class="glyphicon glyphicon-time"> </i>08.09.2014</span></li>
+							<li><a href="#"><i class="glyphicon glyphicon-comment"> </i>5评论</a></li>
+							<li><a href="#"><i class="glyphicon glyphicon-share"> </i>转发分享</a></li>
+						</ul>
+						<p class="wow fadeInLeft animated" data-wow-delay=".5s">洋葱圈是以洋葱为主料炸成的食品。用黄洋葱比较好，因为味道较甜。而小型的洋葱切出来的洋葱圈比较大小适中。
+						<span>煎鱼块烹饪简单且营养丰富美味的菜肴</span></p>
+				</div>
+		</div>
+		<div class="comment">
+							<h3>评论</h3>
+							 <div class="media wow fadeInLeft animated" data-wow-delay=".5s">
+								<div class="code-in">
+									<p class="smith"><a href="#">张三</a> <span>02 June 2014, 15:20</span></p>
+									<p class="reply"><a href="#"><i class="glyphicon glyphicon-repeat"> </i>回复</a></p>
+									<div class="clearfix"> </div>
+								</div>
+							    <div class="media-left">
+							        <a href="#">
+							        	<img src="images/si1.jpg" alt="">
+							        </a>
+							     </div>
+							    <div class="media-body">
+		
+									<p>这简直是太棒啦，我一直都比较喜欢吃煎炸类的食品，所以我觉得我对这道菜很有评价权。嗯，鱼块煎的十分不错，外酥里嫩，咬下一口，鱼香四溢，如果要打分，我肯定会给它十分！</p>
+							      </div>
+							    </div>
+							    <div class="media media-1 wow fadeInUp animated" data-wow-delay=".5s">
+								<div class="code-in">
+									<p class="smith"><a href="#">李四</a> <span>02 June 2014, 15:20</span></p>
+									<p class="reply"><a href="#"><i class="glyphicon glyphicon-repeat"> </i>回复</a></p>
+									<div class="clearfix"> </div>
+								</div>
+							    <div class="media-left">
+							        <a href="#">
+							        	<img src="images/si.jpg" alt="">
+							        </a>
+							     </div>
+							    <div class="media-body">
+		
+									<p>噢！我一向是比较养生的，通常都是吃一些蔬菜沙司，偶尔吃一些水煮的肉，但是有一天我的朋友向我推荐了这道菜！我的天！就像打开了新世界的门！让我欲罢不能，酥脆的刚刚好，鱼的县乡和调料的味道完美融合！我真的推荐你们好好尝一尝！！！</p>
+							      </div>
+							    </div>
+								<div class="media wow fadeInRight animated" data-wow-delay=".5s">
+								<div class="code-in">
+									<p class="smith"><a href="#">王五</a> <span>02 June 2014, 15:20</span></p>
+									<p class="reply"><a href="#"><i class="glyphicon glyphicon-repeat"> </i>回复</a></p>
+									<div class="clearfix"> </div>
+								</div>
+							    <div class="media-left">
+							        <a href="#">
+							        	<img src="images/si2.jpg" alt="">
+							        </a>
+							     </div>
+							    <div class="media-body">
+		
+									<p>我很久之前就知道这道菜，味道真的很棒，对于喜欢吃鱼的人来说，简直是无敌的福利，分量很足，选材新鲜，一些聚会什么的，我和我的朋友或者家人都会点这道菜，有机会大家一定要尝尝哦</p>
+							      </div>
+							    </div>
+						 </div>
+		<div class="leave">
+			<h3>留下点什么</h3>
+				<form>
+					<div class="single-grid wow fadeInLeft animated" data-wow-delay=".5s">
+						
+							<input type="text" value="名字" onfocus="this.value='';" onblur="if (this.value == '') {this.value = '名字';}">
+						
+							<input type="text" value="电子邮箱" onfocus="this.value='';" onblur="if (this.value == '') {this.value = '电子邮箱';}">
+						
+						
+							<input type="text" value="账号" onfocus="this.value='';" onblur="if (this.value == '') {this.value = '账号';}">
+						
+							<textarea value=" " onfocus="this.value='';" onblur="if (this.value == '') {this.value = '评论';}">评论</textarea>
+						<label class="hvr-rectangle-out">
+								<input type="submit" value="确认">
+						</label>						
+				</div>
+				</form>
+			</div>
+		
+</div>
+<!---->
+<!--//content-->
+
+		</div>
+		<div class="col-md-3 categories-grid">
+			<div class="search-in animated wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="500ms">
+				<h4>搜索</h4>
+					<div class="search">
+					<form>
+						<input type="text" placeholder="搜索" required="" >
+						<input type="submit" value="" >
+					</form>
+					</div>
+			</div>
+				<div class="grid-categories animated wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="500ms">
+					<h4>分类</h4>
+					<ul class="popular">
+						<li><a href="#"><i class="glyphicon glyphicon-menu-right"> </i>早点</a></li>
+						<li><a href="#"><i class="glyphicon glyphicon-menu-right"> </i>午饭</a></li>
+						<li><a href="#"><i class="glyphicon glyphicon-menu-right"> </i>晚餐</a></li>
+						<li><a href="#"><i class="glyphicon glyphicon-menu-right"> </i>下午茶</a></li>
+						
+					</ul>
+				</div>
+				<div class="blog-bottom animated wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="500ms">
+						<h4>最新推出</h4>
+							<div class="product-go">
+								<a href="single.html" class="fashion"><img class="img-responsive " src="images/bo.jpg" alt=""></a>
+								<div class="grid-product">
+									<a href="single.html" class="elit">黑胡椒牛柳</a>
+									<p>黑胡椒牛柳是一道有名的粤菜，又简称黑椒牛柳饭，有的会加上茄子使黑椒汁的味道更加绵绵不绝。</p>
+								</div>
+							<div class="clearfix"> </div>
+							</div>
+							<div class="product-go">
+								<a href="single.html" class="fashion"><img class="img-responsive " src="images/bo1.jpg" alt=""></a>
+								<div class="grid-product">
+									<a href="single.html" class="elit">小太阳全麦面包片</a>
+									<p>全麦面包片是指用没有去掉外面麸皮和麦胚的全麦面粉制作的面包片，富含营养的皮下有色部分后制作的一般面包片。</p>
+								</div>
+							<div class="clearfix"> </div>
+							</div>
+							<div class="product-go">
+								<a href="single.html" class="fashion"><img class="img-responsive " src="images/bo2.jpg" alt=""></a>
+								<div class="grid-product">
+									<a href="single.html" class="elit">凉拌粉丝</a>
+									<p>凉拌粉丝是一道可口凉菜，原料为大米、香油、花生米、虾仁等。选购粉丝要注意，颜色不要太亮，也不要太白。</p>
+								</div>
+							<div class="clearfix"> </div>
+							</div>
+						</div>
+
+			</div>
+<div class="clearfix"> </div>
+	</div>
+</div>
+<!--//content-->
+<!--footer-->
+    <div class="footer">
+        <div class="container">
+            <div class="footer-head">
+                <div class="col-md-8 footer-top animated wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="500ms">
+                    <ul class=" in">
+                        <li><a href="index.html">主页</a></li>
+                        <li><a  href="menu.html">菜单</a></li>
+                        <li><a  href="blog.html">博客</a></li>
+                        <li><a  href="events.html">新品</a></li>
+                        <li><a  href="typo.html">注册</a></li>
+                    </ul>                   
+                        <span>这是快速导航栏</span>
+                </div>
+                <div class="col-md-4 footer-bottom  animated wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="500ms">
+                    <h2>加入我们，与我们取得联系</h2>
+                    <label><i class="glyphicon glyphicon-menu-up"></i></label>
+                    <p>您可以用以下方式跟我们取得联系</p>
+                    <ul class="social-ic">
+                        <li><a href="#"><i></i></a></li>
+                        <li><a href="#"><i class="ic"></i></a></li>
+                        <li><a href="#"><i class="ic1"></i></a></li>
+                        <li><a href="#"><i class="ic2"></i></a></li>
+                        <li><a href="#"><i class="ic3"></i></a></li>
+                    </ul>
+                </div>
+            <div class="clearfix"> </div>   
+            </div>
+            <p class="footer-class animated wow bounce" data-wow-duration="1000ms" data-wow-delay="500ms">&copy; 2018.齐园&陈述涵 All rights reserved.<a target="_blank" href="http://guantaow.taobao.com/"></a><a target="_blank" href="http://www.moobnn.com"></a></p>
+        </div>
+    </div>      
+    <!--//footer-->
+
+</body>
+</html>
+

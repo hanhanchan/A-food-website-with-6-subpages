@@ -1,0 +1,191 @@
+<<!-- 头部 -->
+<!DOCTYPE html>
+<html>
+<head>
+<title>新品</title>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<script src="js/jquery.min.js"></script>
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />  
+<!-- 响应式 -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+        <script type="text/javascript" src="js/move-top.js"></script>
+        <script type="text/javascript" src="js/easing.js"></script>
+        <script type="text/javascript">
+            jQuery(document).ready(function($) {
+                $(".scroll").click(function(event){     
+                    event.preventDefault();
+                    $('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+
+                    // 控制滚动条跳动的速度，是animate和scrolltop方法结合
+                });
+            });
+        </script>
+<link href="css/styles.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/component.css" />
+<link href="css/animate.min.css" rel="stylesheet"> 
+<script src="js/wow.min.js"></script>
+<script>
+ new WOW().init();
+</script>
+</head>
+<!-- 头部 -->
+<body>
+
+<!-- 菜单栏 -->
+<div class="header">
+    <div class="container">
+        <div class="logo animated wow pulse" data-wow-duration="1000ms" data-wow-delay="500ms">
+            <h1><a href="index.html"><span>C</span><img src="images/oo.png" alt=""><img src="images/oo.png" alt="">kery</a></h1>
+        </div>
+        <div class="nav-icon">      
+            <a href="#" class="navicon"></a>
+                <div class="toggle">
+                    <ul class="toggle-menu">
+                        <li><a class="active" href="index.html">主页</a></li>
+                        <li><a  href="menu.html">菜单</a></li>
+                        <li><a  href="blog.html">博客</a></li>
+                        <li><a  href="typo.html">注册</a></li>
+                        <li><a  href="events.html">新品</a></li>
+
+                    </ul>
+                </div>
+            <script>
+            $('.navicon').on('click', function (e) {
+              e.preventDefault();
+              $(this).toggleClass('navicon--active'); 
+              // 切换为类
+              $('.toggle').toggleClass('toggle--active');
+            });
+            </script>
+<!--            从屏幕掉落缩回特效 -->
+        </div>
+    <div class="clearfix"></div>
+    </div>      
+</div>
+<!-- 菜单栏 -->
+
+<!--content-->
+<div class="content">
+	<div class="events">
+		<div class="container">
+			<div class="events-top">
+				<div class="col-md-4 events-left animated wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="500ms">
+					<h3>新品</h3>
+					<label><i class="glyphicon glyphicon-menu-up"></i></label>
+					<span>最新推出</span>
+				</div>
+				<div class="col-md-8 events-right animated wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="500ms">
+					<p>这次新推的新菜有营养早，晚餐等，甄选上市， 隆重推出蒙古烤羊腿，橙子番茄肉汤，，敬请品尝！
+					欢迎大家加入我们，一起来吃吃吃！</p>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="events-bottom">
+				<div class="col-md-5 events-bottom1 animated wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="500ms">
+					<a href="single.html"><img src="images/ev.jpg" alt="" class="img-responsive"></a>
+				</div>
+				<div class="col-md-7 events-bottom2 animated wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="500ms">
+					<h3>蒙古烤羊腿</h3>
+					<label><i class="glyphicon glyphicon-menu-up"></i></label>
+					<p>烤羊腿是从烤全羊演变而来。经过长期的发展，在羊腿烘烤过程中逐步增加了各种配料和调味品，使其形、色、味、鲜集一体，色美、肉香、外焦、内嫩、干酥不腻，被人们赞为"眼未见其物，香味已扑鼻"。
+					</p>
+					<div class="read-more">						
+						<a class="link link-yaku" href="single.html">
+							<span>阅</span><span>读</span><span>更</span><span>多</span> <span>！</span>	
+						</a>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="events-bottom">
+				<div class="col-md-7 events-bottom2 animated wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="500ms">
+					<h3>推荐！营养早餐</h3>
+					<label><i class="glyphicon glyphicon-menu-up"></i></label>
+					<p>营养早餐，通俗的来讲就是有养分的早餐。科学的早餐应是低热能、营养均衡，碳水化合物、脂肪、蛋白质、维生素、矿物质和水齐全，特别是要富含膳食纤维。此款新推的营养早餐有牛奶，奶酪片，蓝莓，黄瓜，番茄，全麦小枕头面包。
+					</p>
+					<div class="read-more">						
+						<a class="link link-yaku" href="single.html">
+							<span>阅</span><span>读</span><span>更</span><span>多</span> <span>！</span>	
+						</a>
+					</div>
+				</div>
+				<div class="col-md-5 events-bottom1 animated wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="500ms">
+					<a href="single.html"><img src="images/ev1.jpg" alt="" class="img-responsive"></a>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="events-bottom">
+				<div class="col-md-5 events-bottom1 animated wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="500ms">
+					<a href="single.html"><img src="images/ev2.jpg" alt="" class="img-responsive"></a>
+				</div>
+				<div class="col-md-7 events-bottom2 animated wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="500ms">
+					<h3>橙子番茄肉汤</h3>
+					<label><i class="glyphicon glyphicon-menu-up"></i></label>
+					<p>晚餐宜清淡，注意选择脂肪少、易消化的食物，且注意不应吃得过饱。晚餐营养过剩，消耗不掉的脂肪就会在体内堆积，造成肥胖，影响健康。此款晚餐主要以水果蔬菜为主。
+					</p>
+					<div class="read-more">						
+						<a class="link link-yaku" href="single.html">
+							<span>阅</span><span>读</span><span>更</span><span>多</span> <span>！</span>	
+						</a>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="events-bottom">
+				<div class="col-md-7 events-bottom2 animated wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="500ms">
+					<h3>推荐！营养晚餐</h3>
+					<label><i class="glyphicon glyphicon-menu-up"></i></label>
+					<p>晚餐宜清淡，注意选择脂肪少、易消化的食物，且注意不应吃得过饱。晚餐营养过剩，消耗不掉的脂肪就会在体内堆积，造成肥胖，影响健康。此款晚餐主要以水果蔬菜为主。
+					</p>
+					<div class="read-more">						
+						<a class="link link-yaku" href="single.html">
+							<span>阅</span><span>读</span><span>更</span><span>多</span> <span>！</span>	
+						</a>
+					</div>
+				</div>
+				<div class="col-md-5 events-bottom1 animated wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="500ms">
+					<a href="single.html"><img src="images/ev3.jpg" alt="" class="img-responsive"></a>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!--footer-->
+    <div class="footer">
+        <div class="container">
+            <div class="footer-head">
+                <div class="col-md-8 footer-top animated wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="500ms">
+                    <ul class=" in">
+                        <li><a href="index.html">主页</a></li>
+                        <li><a  href="menu.html">菜单</a></li>
+                        <li><a  href="blog.html">博客</a></li>
+                        <li><a  href="events.html">新品</a></li>
+                        <li><a  href="typo.html">注册</a></li>
+                    </ul>                   
+                        <span>这是快速导航栏</span>
+                </div>
+                <div class="col-md-4 footer-bottom  animated wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="500ms">
+                    <h2>加入我们，与我们取得联系</h2>
+                    <label><i class="glyphicon glyphicon-menu-up"></i></label>
+                    <p>您可以用以下方式跟我们取得联系</p>
+                    <ul class="social-ic">
+                        <li><a href="#"><i></i></a></li>
+                        <li><a href="#"><i class="ic"></i></a></li>
+                        <li><a href="#"><i class="ic1"></i></a></li>
+                        <li><a href="#"><i class="ic2"></i></a></li>
+                        <li><a href="#"><i class="ic3"></i></a></li>
+                    </ul>
+                </div>
+            <div class="clearfix"> </div>   
+            </div>
+            <p class="footer-class animated wow bounce" data-wow-duration="1000ms" data-wow-delay="500ms">&copy; 2018.齐园&陈述涵 All rights reserved.<a target="_blank" href="http://guantaow.taobao.com/"></a><a target="_blank" href="http://www.moobnn.com"></a></p>
+        </div>
+    </div>      
+    <!--//footer-->
+</body>
+</html>

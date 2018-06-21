@@ -1,0 +1,226 @@
+<!-- 头部 -->
+<!DOCTYPE html>
+<html>
+<head>
+<title>菜单</title>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<script src="js/jquery.min.js"></script>
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />  
+<!-- 响应式 -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+        <script type="text/javascript" src="js/move-top.js"></script>
+        <script type="text/javascript" src="js/easing.js"></script>
+        <script type="text/javascript">
+            jQuery(document).ready(function($) {
+                $(".scroll").click(function(event){     
+                    event.preventDefault();
+                    $('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+
+                    // 控制滚动条跳动的速度，是animate和scrolltop方法结合
+                });
+            });
+        </script>
+<link href="css/styles.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/component.css" />
+<link href="css/animate.min.css" rel="stylesheet"> 
+<script src="js/wow.min.js"></script>
+<script>
+ new WOW().init();
+</script>
+</head>
+<!-- 头部 -->
+<body>
+<!-- 菜单栏 -->
+<div class="header">
+    <div class="container">
+        <div class="logo animated wow pulse" data-wow-duration="1000ms" data-wow-delay="500ms">
+            <h1><a href="index.html"><span>C</span><img src="images/oo.png" alt=""><img src="images/oo.png" alt="">kery</a></h1>
+        </div>
+        <div class="nav-icon">      
+            <a href="#" class="navicon"></a>
+                <div class="toggle">
+                    <ul class="toggle-menu">
+                        <li><a class="active" href="index.html">主页</a></li>
+                        <li><a  href="menu.html">菜单</a></li>
+                        <li><a  href="blog.html">博客</a></li>
+                        <li><a  href="typo.html">注册</a></li>
+                        <li><a  href="events.html">新品</a></li>
+
+                    </ul>
+                </div>
+            <script>
+            $('.navicon').on('click', function (e) {
+              e.preventDefault();
+              $(this).toggleClass('navicon--active'); 
+              // 切换为类
+              $('.toggle').toggleClass('toggle--active');
+            });
+            </script>
+<!--            从屏幕掉落缩回特效 -->
+        </div>
+    <div class="clearfix"></div>
+    </div>      
+</div>
+<!-- 菜单栏 -->
+<!--content-->
+	<div class="menu">
+		<div class="container">
+			<div class="menu-top">
+				<div class="col-md-4 menu-left animated wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="500ms">
+					<h3>菜单</h3>
+					<label><i class="glyphicon glyphicon-menu-up"></i></label>
+					<span>菜品清单</span>
+				</div>
+				<div class="col-md-8 menu-right animated wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="500ms">
+					<p>菜单中列有各种菜肴的清单。美食工厂中一切与餐饮产品、价格及服务有关的信息资料，它不仅包含各种文字图片资料、声像资料以及模型与实物资料，还包括名称等。</p>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="menu-bottom animated wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="500ms">
+				<div class="col-md-4 menu-bottom1">
+					<div class="btm-right">
+						<a href="events.html">
+							<img src="images/me.jpg" alt="" class="img-responsive">
+							<div class="captn">
+								<h4>手撕全羊</h4>
+								<p>RMB100</p>				
+							</div>
+						</a>						
+					</div>
+				</div>
+				<div class="col-md-4 menu-bottom1">
+					<div class="btm-right">
+						<a href="events.html">
+							<img src="images/me1.jpg" alt="" class="img-responsive">
+							<div class="captn">
+								<h4>时蔬拼盘</h4>
+								<p>RMB20</p>				
+							</div>
+						</a>						
+					</div>
+				</div>
+				<div class="col-md-4 menu-bottom1">
+					<div class="btm-right">
+						<a href="events.html">
+							<img src="images/me2.jpg" alt="" class="img-responsive">
+							<div class="captn">
+								<h4>深海鱿鱼</h4>
+								<p>RMB78</p>				
+							</div>
+						</a>	
+					</div>
+				</div>
+				<div class="clearfix"> </div>				
+			</div>
+			<div class="menu-bottom animated wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="500ms">
+				<div class="col-md-4 menu-bottom1">
+					<div class="btm-right">
+						<a href="events.html">
+							<img src="images/me3.jpg" alt="" class="img-responsive">
+							<div class="captn">
+								<h4>凉拌西红柿</h4>
+								<p>RMB10</p>				
+							</div>
+						</a>	
+					</div>
+				</div>
+				<div class="col-md-4 menu-bottom1">
+					<div class="btm-right">
+						<a href="events.html">
+							<img src="images/me4.jpg" alt="" class="img-responsive">
+							<div class="captn">
+								<h4>油炸小酥肉</h4>
+								<p>RMB20</p>				
+							</div>
+						</a>	
+					</div>
+				</div>
+				<div class="col-md-4 menu-bottom1">
+					<div class="btm-right">
+						<a href="events.html">
+							<img src="images/me5.jpg" alt="" class="img-responsive">
+							<div class="captn">
+								<h4>白糖飞饼</h4>
+								<p>RMB25</p>				
+							</div>
+						</a>		
+					</div>
+				</div>
+				<div class="clearfix"> </div>				
+			</div>
+			<div class="menu-bottom animated wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="500ms">
+				<div class="col-md-4 menu-bottom1">
+					<div class="btm-right">
+						<a href="events.html">
+							<img src="images/me6.jpg" alt="" class="img-responsive">
+							<div class="captn">
+								<h4>花菜豆腐干</h4>
+								<p>RMB18</p>				
+							</div>
+						</a>		
+					</div>
+				</div>
+				<div class="col-md-4 menu-bottom1">
+					<div class="btm-right">
+						<a href="events.html">
+							<img src="images/me7.jpg" alt="" class="img-responsive">
+							<div class="captn">
+								<h4>美味小面包</h4>
+								<p>RMB15</p>				
+							</div>
+						</a>		
+					</div>
+				</div>
+				<div class="col-md-4 menu-bottom1">
+					<div class="btm-right">
+						<a href="events.html">
+							<img src="images/me8.jpg" alt="" class="img-responsive">
+							<div class="captn">
+								<h4>三文鱼刺身</h4>
+								<p>RMB50</p>				
+							</div>
+						</a>	
+					</div>
+				</div>
+				<div class="clearfix"> </div>				
+			</div>
+		</div>
+	</div>
+<!--footer-->
+    <div class="footer">
+        <div class="container">
+            <div class="footer-head">
+                <div class="col-md-8 footer-top animated wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="500ms">
+                    <ul class=" in">
+                        <li><a href="index.html">主页</a></li>
+                        <li><a  href="menu.html">菜单</a></li>
+                        <li><a  href="blog.html">博客</a></li>
+                        <li><a  href="events.html">新品</a></li>
+                        <li><a  href="typo.html">注册</a></li>
+                    </ul>                   
+                        <span>这是快速导航栏</span>
+                </div>
+                <div class="col-md-4 footer-bottom  animated wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="500ms">
+                    <h2>加入我们，与我们取得联系</h2>
+                    <label><i class="glyphicon glyphicon-menu-up"></i></label>
+                    <p>您可以用以下方式跟我们取得联系</p>
+                    <ul class="social-ic">
+                        <li><a href="#"><i></i></a></li>
+                        <li><a href="#"><i class="ic"></i></a></li>
+                        <li><a href="#"><i class="ic1"></i></a></li>
+                        <li><a href="#"><i class="ic2"></i></a></li>
+                        <li><a href="#"><i class="ic3"></i></a></li>
+                    </ul>
+                </div>
+            <div class="clearfix"> </div>   
+            </div>
+            <p class="footer-class animated wow bounce" data-wow-duration="1000ms" data-wow-delay="500ms">&copy; 2018.齐园&陈述涵 All rights reserved.<a target="_blank" href="http://guantaow.taobao.com/"></a><a target="_blank" href="http://www.moobnn.com"></a></p>
+        </div>
+    </div>      
+    <!--//footer-->
+
+</body>
+</html>

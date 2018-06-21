@@ -1,0 +1,301 @@
+<!-- 头部 -->
+<!DOCTYPE html>
+<html>
+<head>
+<title>博客</title>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<script src="js/jquery.min.js"></script>
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />  
+<!-- 响应式 -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+        <script type="text/javascript" src="js/move-top.js"></script>
+        <script type="text/javascript" src="js/easing.js"></script>
+        <script type="text/javascript">
+            jQuery(document).ready(function($) {
+                $(".scroll").click(function(event){     
+                    event.preventDefault();
+                    $('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+
+                    // 控制滚动条跳动的速度，是animate和scrolltop方法结合
+                });
+            });
+        </script>
+<link href="css/styles.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/component.css" />
+<link href="css/animate.min.css" rel="stylesheet"> 
+<script src="js/wow.min.js"></script>
+<script>
+ new WOW().init();
+</script>
+</head>
+<!-- 头部 -->
+<body>
+<!-- 菜单栏 -->
+<div class="header">
+    <div class="container">
+        <div class="logo animated wow pulse" data-wow-duration="1000ms" data-wow-delay="500ms">
+            <h1><a href="index.html"><span>C</span><img src="images/oo.png" alt=""><img src="images/oo.png" alt="">kery</a></h1>
+        </div>
+        <div class="nav-icon">      
+            <a href="#" class="navicon"></a>
+                <div class="toggle">
+                    <ul class="toggle-menu">
+                        <li><a class="active" href="index.html">主页</a></li>
+                        <li><a  href="menu.html">菜单</a></li>
+                        <li><a  href="blog.html">博客</a></li>
+                        <li><a  href="typo.html">注册</a></li>
+                        <li><a  href="events.html">新品</a></li>
+
+                    </ul>
+                </div>
+            <script>
+            $('.navicon').on('click', function (e) {
+              e.preventDefault();
+              $(this).toggleClass('navicon--active'); 
+              // 切换为类
+              $('.toggle').toggleClass('toggle--active');
+            });
+            </script>
+<!--            从屏幕掉落缩回特效 -->
+        </div>
+    <div class="clearfix"></div>
+    </div>      
+</div>
+<!-- 菜单栏 -->
+<!--content-->
+<div class="blog">
+	<div class="container">
+		<div class="menu-top">
+				<div class="col-md-4 menu-left">
+					<h3>美食博客</h3>
+					<label><i class="glyphicon glyphicon-menu-up"></i></label>
+					<span>你想要的这里有，想不到的这也有！</span>
+				</div>
+				<div class="col-md-8 menu-right">
+					<p>美食博客内容涉及美食论坛、家常菜谱、饮食文化、饮食健康、家庭健康、等多内容。我们收录了很多种菜式的做法，基本每篇都按图片、做法、注意事项来把做法变更加简单。致力于为每个人提供完美的美食解决方案。</p>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		<div class="col-md-9 blog-header">
+		<div class=" blog-head">
+			<div class="col-md-4 blog-top">
+				<div class="blog-in">
+					<a href="single.html"><img class="img-responsive" src="images/bl.jpg" alt=" "></a>
+					<div class="blog-grid">
+						<h3><a href="single.html">烤面包片</a></h3>
+						<div class="date">
+							<span class="date-in"><i class="glyphicon glyphicon-calendar"> </i>22.08.2014</span>
+							<a href="single.html" class="comments"><i class="glyphicon glyphicon-comment"></i>24</a>
+							<div class="clearfix"> </div>
+						</div>
+						<p>1.面包片在蛋液里浸一下连面都要浸泡2.平底锅放少许底油，下浸泡过蛋液的面包片煎制。3.吃时配上一碟酱菜，别提有多美味了。</p>
+						<div class="more">						
+							<a class="link link-yaku" href="single.html">
+								<span>阅</span><span>读</span><span>更</span><span>多</span> <span>！</span>				
+							</a>
+						</div>
+					</div>					
+				</div>
+			</div>
+			<div class="col-md-4 blog-top">
+				<div class="blog-in">
+					<a href="single.html"><img class="img-responsive" src="images/bl1.jpg" alt=" "></a>
+					<div class="blog-grid">
+						<h3><a href="single.html">咖喱鸡丁</a></h3>
+						<div class="date">
+							<span class="date-in"><i class="glyphicon glyphicon-calendar"> </i>22.08.2014</span>
+							<a href="single.html" class="comments"><i class="glyphicon glyphicon-comment"></i>24</a>
+							<div class="clearfix"> </div>
+						</div>
+						<p>1、取鸡脯肉切丁，加料酒和盐抓匀腌制15分钟
+						   2、将胡萝卜、土豆和青椒分别切丁
+						   3、姜片爆香后，将鸡丁倒入炒至变色即可
+						   </p>
+						<div class="more">						
+							<a class="link link-yaku" href="single.html">
+								<span>阅</span><span>读</span><span>更</span><span>多</span> <span>！</span>
+							</a>
+						</div>
+					</div>					
+				</div>
+			</div>
+			<div class="col-md-4 blog-top">
+				<div class="blog-in">
+					<a href="single.html"><img class="img-responsive" src="images/bl2.jpg" alt=" "></a>
+					<div class="blog-grid">
+						<h3><a href="single.html">胡萝卜沙拉</a></h3>
+						<div class="date">
+							<span class="date-in"><i class="glyphicon glyphicon-calendar"> </i>22.08.2014</span>
+							<a href="single.html" class="comments"><i class="glyphicon glyphicon-comment"></i>24</a>
+							<div class="clearfix"> </div>
+						</div>
+						<p>1、将 胡萝卜 等原材料刷洗干净
+						   2、再拌入 沙拉酱、柠檬汁、盐和现磨的白胡椒 即可。放置30分钟，胡萝卜入味会更好吃！</p>
+						<div class="more">						
+							<a class="link link-yaku" href="single.html">
+								<span>阅</span><span>读</span><span>更</span><span>多</span> <span>！</span>
+							</a>
+						</div>
+					</div>					
+				</div>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+		<div class=" blog-head">
+			<div class="col-md-4 blog-top">
+				<div class="blog-in">
+					<a href="single.html"><img class="img-responsive" src="images/bl3.jpg" alt=" "></a>
+					<div class="blog-grid">
+						<h3><a href="single.html">水果雕花拼盘</a></h3>
+						<div class="date">
+							<span class="date-in"><i class="glyphicon glyphicon-calendar"> </i>22.08.2014</span>
+							<a href="single.html" class="comments"><i class="glyphicon glyphicon-comment"></i>24</a>
+							<div class="clearfix"> </div>
+						</div>
+						<p>1.先把所有水果洗干净先把橙子上下端切掉，顺着边缘把橙子皮片下来。
+							2.然后水果肉打薄这样一会儿好卷。
+							3.最后，在装盘的时候只需要注意颜色的搭配。</p>
+						<div class="more">						
+							<a class="link link-yaku" href="single.html">
+							<span>阅</span><span>读</span><span>更</span><span>多</span> <span>！</span>
+							</a>
+						</div>
+					</div>					
+				</div>
+			</div>
+			<div class="col-md-4 blog-top">
+				<div class="blog-in">
+					<a href="single.html"><img class="img-responsive" src="images/bl4.jpg" alt=" "></a>
+					<div class="blog-grid">
+						<h3><a href="single.html">炭烤河鱼</a></h3>
+						<div class="date">
+							<span class="date-in"><i class="glyphicon glyphicon-calendar"> </i>22.08.2014</span>
+							<a href="single.html" class="comments"><i class="glyphicon glyphicon-comment"></i>24</a>
+							<div class="clearfix"> </div>
+						</div>
+						<p>1.准备烤火时用夹鱼的东东把鱼夹到烤架上开始烤了。
+						2.刚才烤的里面，现在烤烤外面，等里外都受点热后再刷油。3.你看鱼皮都有点脆脆黄黄的了就可以加别的料了。</p>
+						<div class="more">						
+							<a class="link link-yaku" href="single.html">
+							<span>阅</span><span>读</span><span>更</span><span>多</span> <span>！</span>	
+							</a>
+						</div>
+					</div>					
+				</div>
+			</div>
+			<div class="col-md-4 blog-top">
+				<div class="blog-in">
+					<a href="single.html"><img class="img-responsive" src="images/bl5.jpg" alt=" "></a>
+					<div class="blog-grid">
+						<h3><a href="single.html">切片乳酪</a></h3>
+						<div class="date">
+							<span class="date-in"><i class="glyphicon glyphicon-calendar"> </i>22.08.2014</span>
+							<a href="single.html" class="comments"><i class="glyphicon glyphicon-comment"></i>24</a>
+							<div class="clearfix"> </div>
+						</div>
+						<p>1.将所有材料放入面包桶内，搅拌一下
+							2.萨拉米和马苏里拉奶酪切碎，再放上马苏里拉。
+						3.放在烤盘第二次发酵，第二次发酵好后，刷蛋液，烤箱预热，190度 18分钟。</p>
+						<div class="more">						
+							<a class="link link-yaku" href="single.html">
+							<span>阅</span><span>读</span><span>更</span><span>多</span> <span>！</span>		
+							</a>
+						</div>
+					</div>					
+				</div>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+		</div>
+		<div class="col-md-3 categories-grid">
+			<div class="search-in animated wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="500ms">
+				<h4>搜索</h4>
+					<div class="search">
+					<form>
+						<input type="text" placeholder="搜索" required="" >
+						<input type="submit" value="" >
+					</form>
+					</div>
+			</div>
+				<div class="grid-categories animated wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="500ms">
+					<h4>分类</h4>
+					<ul class="popular">
+						<li><a href="#"><i class="glyphicon glyphicon-menu-right"> </i>早点</a></li>
+						<li><a href="#"><i class="glyphicon glyphicon-menu-right"> </i>午饭</a></li>
+						<li><a href="#"><i class="glyphicon glyphicon-menu-right"> </i>晚餐</a></li>
+						<li><a href="#"><i class="glyphicon glyphicon-menu-right"> </i>下午茶</a></li>
+						
+					</ul>
+				</div>
+				<div class="blog-bottom animated wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="500ms">
+						<h4>最新推出</h4>
+							<div class="product-go">
+								<a href="single.html" class="fashion"><img class="img-responsive " src="images/bo.jpg" alt=""></a>
+								<div class="grid-product">
+									<a href="single.html" class="elit">黑胡椒牛柳</a>
+									<p>黑胡椒牛柳是一道有名的粤菜，又简称黑椒牛柳饭，有的会加上茄子使黑椒汁的味道更加绵绵不绝。</p>
+								</div>
+							<div class="clearfix"> </div>
+							</div>
+							<div class="product-go">
+								<a href="single.html" class="fashion"><img class="img-responsive " src="images/bo1.jpg" alt=""></a>
+								<div class="grid-product">
+									<a href="single.html" class="elit">小太阳全麦面包片</a>
+									<p>全麦面包片是指用没有去掉外面麸皮和麦胚的全麦面粉制作的面包片，富含营养的皮下有色部分后制作的一般面包片。</p>
+								</div>
+							<div class="clearfix"> </div>
+							</div>
+							<div class="product-go">
+								<a href="single.html" class="fashion"><img class="img-responsive " src="images/bo2.jpg" alt=""></a>
+								<div class="grid-product">
+									<a href="single.html" class="elit">凉拌粉丝</a>
+									<p>凉拌粉丝是一道可口凉菜，原料为大米、香油、花生米、虾仁等。选购粉丝要注意，颜色不要太亮，也不要太白。</p>
+								</div>
+							<div class="clearfix"> </div>
+							</div>
+						</div>
+
+			</div>
+<div class="clearfix"> </div>
+	</div>
+</div>
+<!--//content-->
+<!--footer-->
+    <div class="footer">
+        <div class="container">
+            <div class="footer-head">
+                <div class="col-md-8 footer-top animated wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="500ms">
+                    <ul class=" in">
+                        <li><a href="index.html">主页</a></li>
+                        <li><a  href="menu.html">菜单</a></li>
+                        <li><a  href="blog.html">博客</a></li>
+                        <li><a  href="events.html">新品</a></li>
+                        <li><a  href="typo.html">注册</a></li>
+                    </ul>                   
+                        <span>这是快速导航栏</span>
+                </div>
+                <div class="col-md-4 footer-bottom  animated wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="500ms">
+                    <h2>加入我们，与我们取得联系</h2>
+                    <label><i class="glyphicon glyphicon-menu-up"></i></label>
+                    <p>您可以用以下方式跟我们取得联系</p>
+                    <ul class="social-ic">
+                        <li><a href="#"><i></i></a></li>
+                        <li><a href="#"><i class="ic"></i></a></li>
+                        <li><a href="#"><i class="ic1"></i></a></li>
+                        <li><a href="#"><i class="ic2"></i></a></li>
+                        <li><a href="#"><i class="ic3"></i></a></li>
+                    </ul>
+                </div>
+            <div class="clearfix"> </div>   
+            </div>
+            <p class="footer-class animated wow bounce" data-wow-duration="1000ms" data-wow-delay="500ms">&copy; 2018.齐园&陈述涵 All rights reserved.<a target="_blank" href="http://guantaow.taobao.com/"></a><a target="_blank" href="http://www.moobnn.com"></a></p>
+        </div>
+    </div>      
+    <!--//footer-->
+
+</body>
+</html>
+

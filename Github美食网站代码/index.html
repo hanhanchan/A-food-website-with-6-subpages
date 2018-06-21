@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>主页</title>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<script src="js/jquery.min.js"></script>
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />	
+<!-- 响应式 -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+		<script type="text/javascript" src="js/move-top.js"></script>
+		<script type="text/javascript" src="js/easing.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+
+					// 控制滚动条跳动的速度，是animate和scrolltop方法结合
+				});
+			});
+		</script>
+<link href="css/styles.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/component.css" />
+<link href="css/animate.min.css" rel="stylesheet"> 
+<script src="js/wow.min.js"></script>
+<script>
+ new WOW().init();
+</script>
+</head>
+
+<body>
+ <!-- 菜单栏 -->
+<div class="header">
+    <div class="container">
+        <div class="logo animated wow pulse" data-wow-duration="1000ms" data-wow-delay="500ms">
+            <h1><a href="index.html"><span>C</span><img src="images/oo.png" alt=""><img src="images/oo.png" alt="">kery</a></h1>
+        </div>
+        <div class="nav-icon">      
+            <a href="#" class="navicon"></a>
+                <div class="toggle">
+                    <ul class="toggle-menu">
+                        <li><a class="active" href="index.html">主页</a></li>
+                        <li><a  href="menu.html">菜单</a></li>
+                        <li><a  href="blog.html">博客</a></li>
+                        <li><a  href="typo.html">注册</a></li>
+                        <li><a  href="events.html">新品</a></li>
+
+                    </ul>
+                </div>
+            <script>
+            $('.navicon').on('click', function (e) {
+              e.preventDefault();
+              $(this).toggleClass('navicon--active'); 
+              // 切换为类
+              $('.toggle').toggleClass('toggle--active');
+            });
+            </script>
+<!--            从屏幕掉落缩回特效 -->
+        </div>
+    <div class="clearfix"></div>
+    </div>      
+	<!-- start search-->	
+		<div class="banner">
+			<p class="animated wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="500ms">我们不生产美食，我们只是美食的搬运工。</p>
+			<label></label>
+			<h4 class="animated wow fadeInTop" data-wow-duration="1000ms" data-wow-delay="500ms">欢迎来到美食工厂</h4>
+			<a class="scroll down" href="#content-down"><img src="images/down.png" alt=""></a>
+		</div>
+</div>
+<!--content-->
+<div class="content" id="content-down">
+	<div class="content-top-top">
+		<div class="container">
+			<div class="content-top">
+				<div class="col-md-4 content-left animated wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="500ms">
+					<h3>美食</h3>
+					<label><i class="glyphicon glyphicon-menu-up"></i></label>
+					<span>什么是美食？</span>
+				</div>
+				<div class="col-md-8 content-right animated wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="500ms">
+					<p>美食，顾名思义就是美味的食物，贵的有山珍海味，便宜的有街边小吃。其实美食是不分贵贱的，只要是自己喜欢的，都可以称之为美食。美食吃前有期待、吃后有回味，已不仅仅是简单的味觉感受，更是一种精神享受。</p>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="content-mid">
+					
+				<div class="col-md-4 food-grid animated wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="500ms">
+					<div class=" hover-fold">
+					  <h4>秋葵</h4>
+					  <div class="top">
+						<div class="front face"></div>
+						<div class="back face">
+						<p> 秋葵可凉拌、热炒、油炸、汤菜等，在凉拌和炒食之前必须在沸水中烫三五分钟以去涩。它的属性偏寒凉，容易腹泻或排软便的人，还是不宜吃太多。</p>
+						</div>
+					  </div>
+					  <div class="bottom"></div>
+					</div>
+				</div>
+				<div class="col-md-4 food-grid animated wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="500ms">
+					<div class=" hover-fold">
+					  <h4>糖醋里脊</h4>
+					  <div class="top">
+						<div class="front face front1"></div>
+						<div class="back face">
+						<p>糖醋里脊是经典汉族名菜之一。在浙江菜、鲁菜、川菜、粤菜和淮菜里都有此菜，以鲁菜的糖醋里脊最负盛名。</p>
+						</div>
+					  </div>
+					  <div class="bottom bottom1"></div>
+					</div>
+				</div>
+				<div class="col-md-4 food-grid animated wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="500ms">
+					<div class=" hover-fold">
+					  <h4>麻辣</h4>
+					  <div class="top">
+						<div class="front face front2"></div>
+						<div class="back face">
+						<p>麻辣，是川菜常用味道之一。特点是麻辣味厚，咸鲜而香。广泛应用于以家禽、家畜、内脏以及干鲜蔬品、豆类与豆制品等为原料的冷、热菜式。</p>
+						</div>
+					  </div>
+					  <div class="bottom bottom2"></div>
+					</div>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</div>
+<!--services-->
+<div class="services">
+	<div class="container">
+		<div class="services-top">		
+			<div class="col-md-8 services-right animated wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="500ms">
+					<p>因地理、气候、习俗、特产的不同形成了不同的地方风味，菜系的划分单就汉族的饮食特点而言，目前有四大菜系、八大菜系、十大菜系之说，而且划分系类仍有继续增加的趋势。如果按四大菜系分：有川菜、粤菜、苏菜和鲁菜。也有分八大菜系的。其中各大菜系交相辉映，各有千秋，成为了中华民族珍贵的文化瑰宝！
+</p>
+			</div>
+			<div class="col-md-4 services-left animated wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="500ms">
+				<h3>美食分类</h3>
+				<label><i class="glyphicon glyphicon-menu-up"></i></label>
+				<span>各大菜系</span>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+		<div class="service-top">
+			<div class="col-md-5 service-top animated wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="500ms">
+				<div class=" service-grid">
+					<div class="col-md-6 service-grid1">
+						<div class="hi-icon-wrap hi-icon-effect-5 hi-icon-effect-5a">
+							<a href="#" class="hi-icon hi-icon-mobile glyphicon glyphicon-leaf"></a>
+						</div>
+					</div>
+					<div class="col-md-6 service-grid1">
+						<div class="hi-icon-wrap hi-icon-effect-5 hi-icon-effect-5a">
+							<a href="#" class="hi-icon hi-icon-mobile glyphicon glyphicon-star-empty"></a>
+						</div>					
+						</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class=" service-grid">
+					<div class="col-md-6 service-grid1">
+						<div class="hi-icon-wrap hi-icon-effect-5 hi-icon-effect-5a">
+							<a href="#" class="hi-icon hi-icon-mobile glyphicon glyphicon-folder-open"></a>
+						</div>					
+						</div>
+					<div class="col-md-6 service-grid1">
+						<div class="hi-icon-wrap hi-icon-effect-5 hi-icon-effect-5a">
+							<a href="#" class="hi-icon hi-icon-mobile glyphicon glyphicon-home"></a>
+						</div>					
+						</div>
+					<div class="clearfix"> </div>
+				</div>
+				
+			</div>
+			<div class="col-md-7 service-bottom animated wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="500ms">
+				<div class=" service-bottom1">
+					<div class=" ser-bottom">
+						<img src="images/sa.jpg" class="img-responsive" alt="">
+					</div>
+					<div class="ser-top "> 
+						<h5>川菜</h5>
+						<p>四川菜系，简称川菜。川菜风味包括成都、重庆、乐山、内江，自贡等地方菜的特色，主要特点在于味型多样。川菜的复合味型有20多种。特色：它以麻辣、鱼香、家常、怪味、酸辣、椒麻、醋椒为主要特点。
+
+　　</p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class=" service-bottom1">
+					<div class=" ser-bottom">
+						<img src="images/sa1.jpg" class="img-responsive" alt="">
+					</div>
+					<div class="ser-top "> 
+						<h5>豫菜</h5>
+						<p>　豫菜是中国烹饪文化的一支，也是中原烹饪文化自仰韶文化以来的一个历史过程的结果。中原烹饪文化曾长期位居中国烹饪文化的主流，仰韶的彩陶、殷商的大鼎、洛阳周代宫廷的食制、北宋汴京饮食市场的繁华与经典书写了中原烹饪的文明，也是中国烹饪文化形成与发展的主要历史过程。</p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class=" service-bottom1">
+					<div class=" ser-bottom">
+						<img src="images/sa2.jpg" class="img-responsive" alt="">
+					</div>
+					<div class="ser-top "> 
+						<h5>粤菜</h5>
+						<p>特色：它以选料广泛，讲究鲜、嫩、爽、滑、浓为主要特点。它主要由广东菜、潮州菜和东江菜组成。代表菜品：龙虎斗、脆皮乳猪、咕噜肉、大良炒鲜奶、潮州火筒炖鲍翅、蚝油牛柳、冬瓜盅、文昌鸡等。</p>
+					</div>
+		</div>
+	</div>
+</div>
+<!--//services-->
+<!--news-->
+	<div class="content-top-top">
+		<div class="container">
+			<div class="content-top">
+				<div class="col-md-4 content-left animated wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="500ms">
+					<h3>美食新闻资讯</h3>
+					<label><i class="glyphicon glyphicon-menu-up"></i></label>
+					<span>品尽天下美食</span>
+				</div>
+				<div class="col-md-8 content-right animated wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="500ms">
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="news-bottom">
+				<div class="news-bot">
+					<div class="col-md-6 news-bottom1 animated wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="500ms">
+						<a href="single.html">
+							<div class="content-item">
+								<div class="overlay"></div>
+								<div class=" news-bottom2">
+									<ul class="grid-news">
+										<li><span><i class="glyphicon glyphicon-calendar"> </i>19.06.2018</span><b>/</b></li>
+										<li><span><i class="glyphicon glyphicon-comment"> </i>58评论</span><b>/</b></li>
+										<li><span><i class="glyphicon glyphicon-share"> </i>转发</span></li>
+									</ul>
+									<p>没有什么能比肉更唤醒你的味蕾了！</p>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-6 news-bottom1 animated wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="500ms">
+						<a href="single.html">
+							<div class="content-item content-item1">
+								<div class="overlay"></div>
+								<div class=" news-bottom2">
+									<ul class="grid-news">
+										<li><span><i class="glyphicon glyphicon-calendar"> </i>19.06.2018</span><b>/</b></li>
+										<li><span><i class="glyphicon glyphicon-comment"> </i>58评论</span><b>/</b></li>
+										<li><span><i class="glyphicon glyphicon-share"> </i>转发</span></li>
+									</ul>
+									<p>时蔬加小肉，妙不可言！</p>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="news-bot">
+					<div class="col-md-6 news-bottom1">
+						<a href="single.html">
+							<div class="content-item content-item2 animated wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="500ms">
+								<div class="overlay"></div>
+								<div class=" news-bottom2">
+									<ul class="grid-news">
+										<li><span><i class="glyphicon glyphicon-calendar"> </i>19.06.2018</span><b>/</b></li>
+										<li><span><i class="glyphicon glyphicon-comment"> </i>58评论</span><b>/</b></li>
+										<li><span><i class="glyphicon glyphicon-share"> </i>转发</span></li>
+									</ul>
+									<p>世界上最美好的事情就是吃甜的了！</p>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-6 news-bottom1 animated wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="500ms">
+						<a href="single.html">
+							<div class="content-item content-item3">
+								<div class="overlay"></div>
+								<div class=" news-bottom2">
+									<ul class="grid-news">
+										<li><span><i class="glyphicon glyphicon-calendar"> </i>19.06.2018</span><b>/</b></li>
+										<li><span><i class="glyphicon glyphicon-comment"> </i>58评论</span><b>/</b></li>
+										<li><span><i class="glyphicon glyphicon-share"> </i>转发</span></li>
+									</ul>
+									<p>吃可爱的肉肉，喝鲜鲜的汤！</p>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+			
+			</div>
+		</div>
+	</div>
+<!--//news-->
+</div>
+<!--footer-->
+    <div class="footer">
+        <div class="container">
+            <div class="footer-head">
+                <div class="col-md-8 footer-top animated wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="500ms">
+                    <ul class=" in">
+                        <li><a href="index.html">主页</a></li>
+                        <li><a  href="menu.html">菜单</a></li>
+                        <li><a  href="blog.html">博客</a></li>
+                        <li><a  href="events.html">新品</a></li>
+                        <li><a  href="typo.html">注册</a></li>
+                    </ul>                   
+                        <span>这是快速导航栏</span>
+                </div>
+                <div class="col-md-4 footer-bottom  animated wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="500ms">
+                    <h2>加入我们，与我们取得联系</h2>
+                    <label><i class="glyphicon glyphicon-menu-up"></i></label>
+                    <p>您可以用以下方式跟我们取得联系</p>
+                    <ul class="social-ic">
+                        <li><a href="#"><i></i></a></li>
+                        <li><a href="#"><i class="ic"></i></a></li>
+                        <li><a href="#"><i class="ic1"></i></a></li>
+                        <li><a href="#"><i class="ic2"></i></a></li>
+                        <li><a href="#"><i class="ic3"></i></a></li>
+                    </ul>
+                </div>
+            <div class="clearfix"> </div>   
+            </div>
+            <p class="footer-class animated wow bounce" data-wow-duration="1000ms" data-wow-delay="500ms">&copy; 2018.齐园&陈述涵 All rights reserved.<a target="_blank" href="http://guantaow.taobao.com/"></a><a target="_blank" href="http://www.moobnn.com"></a></p>
+        </div>
+    </div>      
+    <!--//footer-->
+</body>
+</html>
